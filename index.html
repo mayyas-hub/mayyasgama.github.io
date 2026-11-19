@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mayibongwe Gama — a personal portfolio and journey.">
+  <title>Mayibongwe Gama | Mayyas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Mayyas home">MG<span>.</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+        <span class="sr-only">Toggle menu</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Mayibongwe<br><em>Gama.</em></h1>
+        <p class="hero-intro">Known as <strong>Mayyas</strong> — curious by nature, driven by growth, and building a future with purpose.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Discover my story</a>
+          <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap" aria-label="Portrait of Mayibongwe Gama">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait">
+          <img src="mayibongwe-gama.jpg" alt="Mayibongwe Gama">
+        </div>
+        <div class="status-card">
+          <span class="status-dot"></span>
+          <div>
+            <small>Current chapter</small>
+            <strong>Always evolving</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Personal values">
+      <div class="ticker-track">
+        <span>Curiosity</span><b>✦</b><span>Growth</span><b>✦</b><span>Purpose</span><b>✦</b><span>Resilience</span><b>✦</b>
+        <span>Curiosity</span><b>✦</b><span>Growth</span><b>✦</b><span>Purpose</span><b>✦</b><span>Resilience</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="about section container" id="about">
+      <div class="section-label"><span>01</span> About me</div>
+      <div class="about-grid">
+        <h2>More than a name.<br><em>A story in motion.</em></h2>
+        <div class="about-copy">
+          <p class="lead">I'm Mayibongwe Gama — Mayyas to the people around me.</p>
+          <p>I believe meaningful progress begins with curiosity: asking better questions, embracing new challenges, and turning experiences into lessons. This space reflects who I am and the journey I'm creating.</p>
+          <div class="traits">
+            <div><strong>01</strong><span>Curious mind</span></div>
+            <div><strong>02</strong><span>Purpose-led</span></div>
+            <div><strong>03</strong><span>Always growing</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section" id="journey">
+      <div class="container">
+        <div class="section-label"><span>02</span> My journey</div>
+        <div class="journey-heading">
+          <h2>The road ahead<br><em>is still being written.</em></h2>
+          <p>Every experience adds a new layer to who I become.</p>
+        </div>
+        <div class="journey-grid">
+          <article class="journey-card feature-card">
+            <span class="card-number">01</span>
+            <h3>Keep learning</h3>
+            <p>Stay open to ideas, cultures, and perspectives that expand the way I see the world.</p>
+          </article>
+          <article class="journey-card">
+            <span class="card-number">02</span>
+            <h3>Make progress</h3>
+            <p>Turn ambition into action through consistency, courage, and thoughtful decisions.</p>
+          </article>
+          <article class="journey-card">
+            <span class="card-number">03</span>
+            <h3>Create impact</h3>
+            <p>Build work and relationships that leave a positive mark beyond my own story.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section container" id="contact">
+      <p class="eyebrow">Start a conversation</p>
+      <h2>Let's make something<br><em>meaningful.</em></h2>
+      <a class="circle-link" href="mailto:hello@example.com" aria-label="Email Mayibongwe">
+        <span>Say hello</span>
+        <b aria-hidden="true">↗</b>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand" href="#top">MG<span>.</span></a>
+      <p>© <span id="year"></span> Mayibongwe Gama</p>
+      <a href="https://github.com/mayyas-hub" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
